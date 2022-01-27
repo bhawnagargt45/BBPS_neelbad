@@ -1,0 +1,86 @@
+html
+{ height: 100%;}
+
+body
+{ 
+  background: lightblue;
+}
+
+p
+{ padding: 0 0 20px 0;
+}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ padding-bottom: 20px;}
+
+#logo
+{ width: 860px;
+  height: 44px;
+  margin-top:10px}
+
+#menubar
+{ height: 24px;
+  width: 900px;} 
+
+ul#menu
+{ float: right;
+  margin: 0;
+  padding: 0;}
+
+ul#menu li
+{ float: left;
+  padding: 0;
+  list-style: none;
+  margin: 5px 2px 0 0;}
+
+ul#menu li a
+{ font: 100% 'trebuchet ms';
+  display: compact; 
+  height: 20px;
+  padding: 6px 20px 5px 20px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  background: white;
+} 
+
+ul#menu li a:hover
+{ color: Blue;}
+
+#site_content
+{ width: 858px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 10px 20px 20px 20px;
+  background: #F6F6F0 url(back.png) repeat-y;
+  border: 15px solid #FFF;} 
+
+.sidebar
+{ float: right;
+  width: 190px;
+  padding: 15px 20px 15px;}
+
+
+#content
+{ text-align:justify;
+  width: 613px;
+}
+
+#footer
+{ width: 928px;
+  font: 100% "trebuchet ms";
+  padding: 20px 0 5px 0;
+  text-align: center; 
+  background:black;
+  }
+
+#footer a, #footer a:hover
+{ color: white; }
